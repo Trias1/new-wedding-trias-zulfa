@@ -1,0 +1,39 @@
+.card-body {
+  background: var(--color-bg);
+  color: var(--color-white);
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+}
+
+.img-fluidd {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.justify-content-center h4 {
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .justify-content-center h4 {
+    font-size: 1.5rem;
+  }
+
+  .img-fluidd {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .justify-content-center h4 {
+    font-size: 1rem;
+  }
+  .img-fluidd {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+  }
+}
