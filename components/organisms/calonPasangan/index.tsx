@@ -2,8 +2,8 @@ import React from "react";
 import { FiInstagram } from "react-icons/fi";
 import Image from "next/image";
 import { FaRing } from "react-icons/fa";
-import foto1 from "../../../public/img/AYXE0057.jpeg";
-import foto2 from "../../../public/img/MempelaiPria.jpeg";
+// import foto1 from "../../../public/img/AYXE0057.jpeg";
+// import foto2 from "../../../public/img/MempelaiPria.jpeg";
 
 export default function CalonPasangan() {
   return (
@@ -23,14 +23,15 @@ export default function CalonPasangan() {
         {/* Mempelai Pria */}
         <div className="pengantin">
           <Image
-            src={foto2}
-            className="img-fluids"
-            // width={200}
-            // height={360}
+            src="/img/s.jpg"
+            className="rounded-circle "
+            layout="responsive"
+            width={50}
+            height={50}
             alt="Adi Hidayatuloh"
           />
-          <p className="nama-pengantin">Adi Hidayatuloh, S.Pd.</p>
-          <p className="orangtua">Putra dari Didi Mulyadi & Yayah Adiah</p>
+          <p className="nama-pengantin">Trias Zaen Mutaqin</p>
+          <p className="orangtua">Putra dari Asep Sudrajat & Upi</p>
           <a
             href="https://www.instagram.com/adihidayatuloh/"
             className="sosmed"
@@ -48,14 +49,15 @@ export default function CalonPasangan() {
         {/* Mempelai Wanita */}
         <div className="pengantin">
           <Image
-            src={foto1}
-            className="img-fluids"
-            // width={200}
-            // height={360}
+            src="/img/s.jpg"
+            className="rounded-circle "
+            layout="responsive"
+            width={50}
+            height={50}
             alt="Dewi Astri"
           />
-          <p className="nama-pengantin">Dewi Astri, S.E.</p>
-          <p className="orangtua">Putri dari Iwa Kartiwa & Tuti Tohati</p>
+          <p className="nama-pengantin">Zulfa Syafiyah Pratiwi</p>
+          <p className="orangtua">Putri dari Cartab & Dewi Komalasari</p>
           <a href="https://www.instagram.com/dedew_astri/" className="sosmed">
             <FiInstagram />
           </a>

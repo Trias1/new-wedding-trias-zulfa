@@ -36,7 +36,7 @@ export default function Home() {
       {/* <Invitation /> */}
       <CalonPasangan />
       <LoveStory />
-      {/* <WeedingLocation /> */}
+      <WeedingLocation />
       <Maps />
       {/* <Gallery /> */}
       {/* <Amplop /> */}

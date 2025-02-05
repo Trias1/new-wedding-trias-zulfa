@@ -100,8 +100,14 @@ h6 {
   font-weight: inherit;
 }
 
+
+h2{
+  line-height: 1.6;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #fff;
+}
 h1,
-h2,
 p {
   line-height: 1.6;
   font-size: 1.05em;

@@ -1,4 +1,4 @@
-.section-title {
+.section-titles {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -27,7 +27,7 @@
 }
 
 .date {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
