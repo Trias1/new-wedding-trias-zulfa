@@ -10,7 +10,13 @@ const BooksList = () => {
 
   useEffect(() => {
     const unsubscribe = BookDataService.getAllBooksRealtime((snapshot) => {
-      setBooks(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+      const fetchedBooks = snapshot.docs.map((doc) => ({
+        ...doc.data(),
+        id: doc.id,
+      }));
+
+      console.log("Books fetched:", fetchedBooks); // Pastikan urutannya benar
+      setBooks(fetchedBooks); // Langsung set, karena sudah terurut dari Firestore
     });
 
     return () => unsubscribe();
