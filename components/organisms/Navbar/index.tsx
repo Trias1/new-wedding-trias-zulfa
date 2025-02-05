@@ -8,7 +8,6 @@ export default function Navbar() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <>
-      {/* Navbar */}
       <nav className="nav">
         <a
           href="/#"
@@ -46,8 +45,6 @@ export default function Navbar() {
           <BiMessageSquareDetail />
         </a>
       </nav>
-
-      {/* Tambahkan padding agar konten tidak tertutup navbar */}
       <div style={{ paddingBottom: "3rem" }}></div>
     </>
   );

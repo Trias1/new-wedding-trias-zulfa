@@ -38,12 +38,10 @@ export default function mainBanner() {
 
   return (
     <div className="main-banner-container">
-      {/* Main Banner */}
       <div className="main-banner">
         <div className="display-table center-text">
           <div className="display-table-cell">
             <div className="slider-content">
-              {/* <!-- Gambar sebelum judul --> */}
               <img
                 src="/img/s.jpg"
                 alt="Wedding Image"

@@ -24,7 +24,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>The Weeding of Trias & Zulfa</title>
         <meta name="description" content="Weeding Trias & Zulfa" />
         <link rel="icon" href="/favicon.ico" />
-        {/* Boostrap CSS */}
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -32,14 +31,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
         />
 
-        {/* Call Boostrap JS */}
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
           crossOrigin="anonymous"
         />
 
-        {/* Google Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

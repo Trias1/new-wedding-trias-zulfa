@@ -1,15 +1,11 @@
 import React from "react";
 import { FiInstagram } from "react-icons/fi";
 import Image from "next/image";
-import { FaRing } from "react-icons/fa";
-// import foto1 from "../../../public/img/AYXE0057.jpeg";
-// import foto2 from "../../../public/img/MempelaiPria.jpeg";
 
 export default function CalonPasangan() {
   return (
     <div className="containerss">
       <div className="calon-cards">
-        {/* Bagian Teks Undangan */}
         <div className="text-undangan">
           <p className="arabic-text">
             لَسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ
@@ -20,7 +16,7 @@ export default function CalonPasangan() {
             Bermaksud Menyelenggarakan Pernikahan Kami.
           </p>
         </div>
-        {/* Mempelai Pria */}
+
         <div className="pengantin">
           <Image
             src="/img/s.jpg"
@@ -40,13 +36,10 @@ export default function CalonPasangan() {
           </a>
         </div>
 
-        {/* Icon Cincin */}
         <div className="icon-cincin">
-          {/* <FaRing size={30} /> */}
           <p className="nama-pasangan">Trias 💍 Zulfa</p>
         </div>
 
-        {/* Mempelai Wanita */}
         <div className="pengantin">
           <Image
             src="/img/s.jpg"

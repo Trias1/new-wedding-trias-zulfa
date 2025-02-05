@@ -20,7 +20,6 @@ export default function modal({ isPlaying, setIsPlaying }: any) {
 
   useEffect(() => {
     if (audioElem.current) {
-      // Event listener untuk mengulang musik setelah selesai
       audioElem.current.onended = () => {
         audioElem.current?.play();
       };

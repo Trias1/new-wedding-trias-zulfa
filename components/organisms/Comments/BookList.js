@@ -13,7 +13,7 @@ const BooksList = () => {
       setBooks(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     });
 
-    return () => unsubscribe(); // Hapus listener saat komponen unmount
+    return () => unsubscribe();
   }, []);
 
   const totalPages = Math.ceil(books.length / itemsPerPage);
@@ -24,7 +24,6 @@ const BooksList = () => {
     currentPage * itemsPerPage
   );
 
-  // Fungsi ganti halaman
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
@@ -60,7 +59,6 @@ const BooksList = () => {
           ))}
         </div>
 
-        {/* Pagination */}
         <Pagination className="mt-3 justify-content-center">
           <Pagination.Prev
             onClick={() => handlePageChange(currentPage - 1)}

@@ -7,10 +7,8 @@ export default function WeedingLocation() {
   return (
     <div className="section w-details-area center-text" id="weddingDate">
       <div className="container">
-        {/* Card Akad Nikah */}
         <div className="card">
           <div className="card-body">
-            {/* Save The Date */}
             <h2 className="section-title">Save The Date</h2>
             <div className="save-the-date">
               <span className="day">Sabtu</span>
@@ -36,8 +34,6 @@ export default function WeedingLocation() {
             </div>
           </div>
         </div>
-
-        {/* Card Walimah */}
         <div className="card">
           <div className="card-body">
             <h3 className="card-title">Walimah</h3>

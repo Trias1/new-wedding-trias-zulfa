@@ -15,7 +15,7 @@ export default function Home() {
 
   const [bookId, setBookId] = useState("");
 
-  const [onNewComment, setonNewComment] = useState("");
+  const [onNewComment] = useState("");
 
   return (
     <>
@@ -26,7 +26,6 @@ export default function Home() {
       <LoveStory />
       <WeedingLocation />
       <Maps />
-
       <Container>
         <Row>
           <Col>
