@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 
 export default function Footer() {
@@ -16,9 +15,6 @@ export default function Footer() {
           <a href="https://www.instagram.com/tzm_12/">
             <FiInstagram />
           </a>
-          {/* <a href="https://www.facebook.com/BRANDITS/">
-            <FaFacebookF />
-          </a> */}
         </div>
       </div>
     </footer>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Table, Button } from "react-bootstrap";
 import { FaRegUserCircle, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import BookDataService from "../../../services/book-services";
 import { Pagination } from "react-bootstrap";
