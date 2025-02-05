@@ -29,23 +29,25 @@ const LoveStory = () => {
   ];
 
   return (
-    <div className="love-story-container">
-      <div className="calon-cards">
-        <h2 className="section-title">Our Love Story</h2>
-        <div className="timeline">
-          {moments.map((moment, index) => (
-            <div className="timeline-item" key={index}>
-              <div className="timeline-content">
-                <h3 className="moment-title">
-                  {moment.year} - {moment.title}
-                </h3>
-                <p className="moment-description">{moment.description}</p>
+    <div className="containerss">
+      <div className="calon-cardss">
+        <div className="love-story-container">
+          <h2 className="section-title">Our Love Story</h2>
+          <div className="timeline">
+            {moments.map((moment, index) => (
+              <div className="timeline-item" key={index}>
+                <div className="timeline-content">
+                  <h3 className="moment-title">
+                    {moment.year} - {moment.title}
+                  </h3>
+                  <p className="moment-description">{moment.description}</p>
+                </div>
+                <div className="timeline-icon">
+                  <FaHeart />
+                </div>
               </div>
-              <div className="timeline-icon">
-                <FaHeart />
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

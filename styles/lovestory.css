@@ -1,10 +1,11 @@
+
 .love-story-container {
   text-align: center;
   padding: 3rem 1rem;
   max-width: 700px;
   margin: auto;
 }
-.calon-cards {
+.calon-cardss {
     display: flex;
     align-items: center;
     justify-content: space-around; /* Mengatur jarak antara pengantin */
