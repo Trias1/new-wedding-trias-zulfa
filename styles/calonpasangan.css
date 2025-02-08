@@ -70,7 +70,7 @@
 
 .sosmed {
   display: inline-block;
-  background: #ff7f50;
+  background: #1f1f38;
   color: white;
   padding: 0.6rem;
   border-radius: 50%;
@@ -78,7 +78,7 @@
 }
 
 .sosmed:hover {
-  background: #e66b40;
+  background: white;
 }
 
 .icon-cincin {

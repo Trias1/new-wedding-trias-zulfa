@@ -35,7 +35,7 @@ body {
 .pre-title {
   font-family: "Cinzel", serif;
 }
-.title {
+.titles {
   font-family: "Playball", cursive;
 }
 .text-invite {
@@ -49,9 +49,9 @@ body {
   font-family: "Merriweather", serif;
 }
 
-.time-sec {
+/* .time-sec {
   font-family: "Playball", cursive;
-}
+} */
 
 .about__me-image .text-assalamualaikum {
   font-family: "Playball", cursive;
@@ -292,7 +292,7 @@ b.light-color {
 .section .heading .icon {
   font-size: 18px;
   margin-top: 20px;
-  color: #e45f74;
+  color: #1f1f38;
 }
 
 .section .heading .icon.color-white {
@@ -601,7 +601,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 .slider-content .title i {
   transform: translateY(10px);
   font-size: 0.8em;
-  color: #e45f74;
+  color: #1f1f38;
 }
 
 /* ---------------------------------
@@ -648,22 +648,22 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.remaining-time .time-sec {
+.remaining-time .time-secs {
   position: relative;
   margin: 0 20px;
   margin-bottom: 30px;
   height: 120px;
   width: 120px;
   padding-top: 25px;
-  border-radius: 100px;
+  border-radius: 10px;
   border: 1px solid var(--color-bg);
-  color: #fff;
+  color: #ffffff;
   background: var(--color-bg);
 
   animation: pulse 1s ease infinite;
 }
 
-.remaining-time .time-sec .title {
+.remaining-time .time-secs .title {
   font-size: 3em;
   line-height: 1;
   display: block;
@@ -826,14 +826,14 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   margin-right: -9px;
 }
 
-.w-detail .title {
+/* .w-detail .title {
   margin: 10px 0;
-}
+} */
 
 .w-detail .icon {
   font-size: 3.5em;
   line-height: 1;
-  color: #e45f74;
+  color: #1f1f38;
 }
 
 /* ---------------------------------
@@ -955,7 +955,7 @@ footer ul > li > a > img:hover {
 }
 
 footer .logo-wrapper .icon {
-  color: #e45f74;
+  color: #1f1f38;
 }
 
 footer .logo {
@@ -972,7 +972,7 @@ footer .newsletter {
   margin: 20px 0;
 }
 
-footer .newsletter .title {
+footer .newsletter  {
   margin: 5px 0;
 }
 

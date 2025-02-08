@@ -49,23 +49,16 @@ export default function mainBanner() {
               />
 
               <h3 className="pre-title mb-5">The Wedding of</h3>
-              <h1 className="title">Trias & Zulfa</h1>
+              <h1 className="titles">Trias & Zulfa</h1>
               <h4 className="text-invite mt-5">
                 We invite you to celebrate our wedding
                 <br />
-                <span className="mt-1">Sabtu, 27 September 2025</span>
+                {/* <span className="mt-1">Sabtu, 27 September 2025</span> */}
               </h4>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <section className="section counter-area center-text">
-        <div className="container">
-          <div className="row">
             <div className="col-sm-12">
               <div className="heading">
-                <h2 className="title text-white">Jangan Lupa!</h2>
+                <h3 className="titles mt-1">Jangan Lupa!</h3>
               </div>
             </div>
             <div className="col-12">
@@ -74,17 +67,17 @@ export default function mainBanner() {
                   <div> Yay... The day has arrived!</div>
                 ) : (
                   <div id="clock">
-                    <div className="time-sec d-inline-block">
-                      <span className="title">{days}</span> Days
+                    <div className="time-secs d-inline-block"> Days
+                      <span className="title">{days}</span> 
                     </div>
-                    <div className="time-sec d-inline-block">
-                      <span className="title">{hours}</span> Hours
+                    <div className="time-secs d-inline-block"> Hours
+                      <span className="title">{hours}</span> 
                     </div>
-                    <div className="time-sec d-inline-block">
-                      <span className="title">{minutes}</span> Minutes
+                    <div className="time-secs d-inline-block"> Minutes
+                      <span className="title">{minutes}</span>
                     </div>
-                    <div className="time-sec d-inline-block">
-                      <span className="title">{seconds}</span> Seconds
+                    <div className="time-secs d-inline-block"> Seconds
+                      <span className="title">{seconds}</span>
                     </div>
                   </div>
                 )}
@@ -92,7 +85,7 @@ export default function mainBanner() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

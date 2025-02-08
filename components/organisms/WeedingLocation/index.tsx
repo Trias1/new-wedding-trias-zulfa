@@ -9,7 +9,11 @@ export default function WeedingLocation() {
       <div className="container">
         <div className="card">
           <div className="card-body">
-            <h2 className="section-title">Save The Date</h2>
+            <h2 className="section-titles">Save The Date</h2>
+            <h3 className="card-title">Akad Nikah</h3>
+            <h3 className="card-titla">
+              Insya Allah rangkaian acara akan diselenggarakan pada :
+            </h3>
             <div className="save-the-date">
               <span className="day">Sabtu</span>
               <div className="date-container">
@@ -19,17 +23,12 @@ export default function WeedingLocation() {
               <span className="month">September</span>
               <span className="year">2025</span>
             </div>
-            <h3 className="card-title">Akad Nikah</h3>
             <div className="event-detail">
-              <MdDateRange className="icon" />
-              <h4>Sabtu, 27 September 2025</h4>
             </div>
             <div className="event-detail">
-              <BsClock className="icon" />
               <h4>08.00 WIB s.d 10.00 WIB</h4>
             </div>
             <div className="event-detail">
-              <GoLocation className="icon" />
               <h4>Dusun Karang Tengah RT003/17, Desa Imbanagara, Ciamis</h4>
             </div>
           </div>
@@ -38,15 +37,20 @@ export default function WeedingLocation() {
           <div className="card-body">
             <h3 className="card-title">Walimah</h3>
             <div className="event-detail">
-              <MdDateRange className="icon" />
-              <h4>Sabtu, 27 September 2025</h4>
+              <div className="save-the-date">
+                <span className="day">Sabtu</span>
+                <div className="date-container">
+                  <span className="date">27</span>
+                  <hr className="date-line" />
+                </div>
+                <span className="month">September</span>
+                <span className="year">2025</span>
+              </div>
             </div>
             <div className="event-detail">
-              <BsClock className="icon" />
               <h4>11.00 WIB s.d Selesai</h4>
             </div>
             <div className="event-detail">
-              <GoLocation className="icon" />
               <h4>Dusun Karang Tengah RT003/17, Desa Imbanagara, Ciamis</h4>
             </div>
           </div>

@@ -10,6 +10,7 @@ import Footer from "../components/organisms/Footer";
 import AddBook from "../components/organisms/Comments/AddBook";
 import BooksList from "../components/organisms/Comments/BookList";
 import LoveStory from "../components/organisms/lovestory";
+import AdabWalimah from "../components/organisms/walimah";
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -44,6 +45,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      <AdabWalimah/>
       <Footer />
     </>
   );

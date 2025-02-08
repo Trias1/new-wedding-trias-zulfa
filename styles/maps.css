@@ -6,20 +6,21 @@
     overflow: hidden;
     max-width: 100%;
     background: transparent;
-    margin-top: 2rem; /* Margin atas sedikit lebih kecil */
+    border-radius: 10px;
+    margin-top: -10rem; /* Margin atas sedikit lebih kecil */
   }
   
   /* Responsif untuk layar lebih kecil dari 991px */
   @media (max-width: 991px) {
     .map-responsive {
-      margin-top: 1rem; /* Margin atas sedikit lebih kecil */
+      margin-top: -7rem; /* Margin atas sedikit lebih kecil */
     }
   }
   
   /* Responsif untuk layar lebih kecil dari 480px (layar ponsel) */
   @media (max-width: 480px) {
     .map-responsive {
-      margin-top: 1rem; /* Mengurangi margin atas pada ponsel */
+      margin-top: -5rem; /* Mengurangi margin atas pada ponsel */
       padding-bottom: 60%; /* Menyesuaikan rasio untuk ponsel */
     }
   }

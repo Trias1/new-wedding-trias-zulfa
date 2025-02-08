@@ -45,78 +45,80 @@ export default function AddBooks({ id, setBookId, onNewComment }) {
 
   return (
     <>
-      <div className="ucapan text-center mt-3">
-        <h1 className="fw-bold">Ucapkan Sesuatu</h1>
-        <h2 className="mt-2">Berikan Ucapan & Doa Restu</h2>
-      </div>
+      <div className="containerssa">
+        <div className="ucapan text-center mt-3">
+          {/* <h1 className="fw-bold">Ucapkan Sesuatu</h1> */}
+          <h1 className="mt-2">Berikan Ucapan & Doa Restu</h1>
+        </div>
 
-      <div className="container mt-4">
-        <div className="card-bodys">
-          {message?.msg && (
-            <Alert
-              variant={message?.error ? "danger" : "success"}
-              dismissible
-              onClose={() => setMessage("")}
-            >
-              {message?.msg}
-            </Alert>
-          )}
-
-          <Form onSubmit={handleSubmit}>
-            <Form.Group className="mb-3">
-              <InputGroup>
-                <Form.Control
-                  type="text"
-                  placeholder="Nama anda..."
-                  value={title}
-                  onChange={(e) => setTitle(e.target.value)}
-                />
-              </InputGroup>
-            </Form.Group>
-
-            <Form.Group className="mb-3">
-              <InputGroup>
-                <Form.Control
-                  as="textarea"
-                  rows={3}
-                  placeholder="Ucapkan Selamat..."
-                  value={author}
-                  onChange={(e) => setAuthor(e.target.value)}
-                />
-              </InputGroup>
-            </Form.Group>
-
-            <Form.Group className="mb-3">
-              <div className="d-flex gap-3">
-                <Form.Check
-                  type="radio"
-                  label="Hadir"
-                  name="status"
-                  id="hadir"
-                  checked={status === "Hadir"}
-                  onChange={() => setStatus("Hadir")}
-                />
-                <Form.Check
-                  type="radio"
-                  label="Tidak Hadir"
-                  name="status"
-                  id="tidak-hadir"
-                  checked={status === "Tidak Hadir"}
-                  onChange={() => setStatus("Tidak Hadir")}
-                />
-              </div>
-            </Form.Group>
-
-            <div className="d-grid">
-              <Button
-                variant="primary"
-                type="submit"
-                className="btn-kirim-undangan"
+        <div className="container mt-4">
+          <div className="card-bodys">
+            {message?.msg && (
+              <Alert
+                variant={message?.error ? "danger" : "success"}
+                dismissible
+                onClose={() => setMessage("")}
               >
-                Kirim Ucapan
-              </Button>
-            </div>
-          </Form>
+                {message?.msg}
+              </Alert>
+            )}
+
+            <Form onSubmit={handleSubmit}>
+              <Form.Group className="mb-3">
+                <InputGroup>
+                  <Form.Control
+                    type="text"
+                    placeholder="Nama anda..."
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
+                  />
+                </InputGroup>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <InputGroup>
+                  <Form.Control
+                    as="textarea"
+                    rows={3}
+                    placeholder="Ucapkan Selamat..."
+                    value={author}
+                    onChange={(e) => setAuthor(e.target.value)}
+                  />
+                </InputGroup>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <div className="d-flex gap-3">
+                  <Form.Check
+                    type="radio"
+                    label="Hadir"
+                    name="status"
+                    id="hadir"
+                    checked={status === "Hadir"}
+                    onChange={() => setStatus("Hadir")}
+                  />
+                  <Form.Check
+                    type="radio"
+                    label="Tidak Hadir"
+                    name="status"
+                    id="tidak-hadir"
+                    checked={status === "Tidak Hadir"}
+                    onChange={() => setStatus("Tidak Hadir")}
+                  />
+                </div>
+              </Form.Group>
+
+              <div className="d-grid">
+                <Button
+                  variant="primary"
+                  type="submit"
+                  className="btn-kirim-undangan"
+                >
+                  Kirim Ucapan
+                </Button>
+              </div>
+            </Form>
+          </div>
         </div>
       </div>
     </>

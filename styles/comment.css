@@ -1,4 +1,7 @@
 /* Style untuk desktop */
+.containerssa{
+  margin-top: -60px;
+}
 .card-bodys {
   background: #fff;
   color: #333;
@@ -80,6 +83,9 @@
 
 /* Style untuk perangkat mobile */
 @media (max-width: 768px) {
+  .containerssa{
+    margin-top: -50px;
+  }
   .card-bodys {
     padding: 15px; /* Mengurangi padding untuk perangkat kecil */
   }
@@ -117,6 +123,9 @@
 
 /* Style untuk perangkat kecil (misalnya, ponsel dengan lebar kurang dari 480px) */
 @media (max-width: 480px) {
+  .containerssa{
+    margin-top: -20px;
+  }
   .card-bodys {
     padding: 10px; /* Menyesuaikan padding lebih kecil */
   }

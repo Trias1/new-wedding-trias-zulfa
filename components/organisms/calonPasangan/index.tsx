@@ -25,12 +25,12 @@ export default function CalonPasangan() {
               layout="responsive"
               width={50}
               height={50}
-              alt="Adi Hidayatuloh"
+              alt="Trias Zaen Mutaqin"
             />
             <p className="nama-pengantin">Trias Zaen Mutaqin</p>
             <p className="orangtua">Putra dari Asep Sudrajat & Upi</p>
             <a
-              href="https://www.instagram.com/adihidayatuloh/"
+              href="https://www.instagram.com/tzm_12/"
               className="sosmed"
             >
               <FiInstagram />
@@ -48,11 +48,11 @@ export default function CalonPasangan() {
               layout="responsive"
               width={50}
               height={50}
-              alt="Dewi Astri"
+              alt="Zulfa Syafiyah"
             />
             <p className="nama-pengantin">Zulfa Syafiyah Pratiwi</p>
             <p className="orangtua">Putri dari Cartab & Dewi Komalasari</p>
-            <a href="https://www.instagram.com/dedew_astri/" className="sosmed">
+            <a href="https://www.instagram.com/zulfasyapr/" className="sosmed">
               <FiInstagram />
             </a>
           </div>

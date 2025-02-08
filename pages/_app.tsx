@@ -12,6 +12,7 @@ import "../styles/comment.css";
 import "../styles/untilities.css";
 import "../styles/mainbanner.css";
 import "../styles/lovestory.css";
+import "../styles/adapwalimah.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
