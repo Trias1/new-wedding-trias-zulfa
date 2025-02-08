@@ -29,7 +29,7 @@ const LoveStory = () => {
   ];
 
   return (
-    <div className="containerss">
+    <div className="containerssaa">
       <div className="calon-cardss">
         <div className="love-story-container">
           <h1 className="section-title">Love Story</h1>

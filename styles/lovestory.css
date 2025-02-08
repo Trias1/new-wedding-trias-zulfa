@@ -1,4 +1,14 @@
 
+.containerssaa {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
 .love-story-container {
   text-align: center;
   padding: 3rem 1rem;

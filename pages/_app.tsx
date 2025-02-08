@@ -6,7 +6,6 @@ import "../styles/modal.css";
 import "../styles/calonpasangan.css";
 import "../styles/weadingloaction.css";
 import "../styles/maps.css";
-import "../styles/keamanan.css";
 import "../styles/footer.css";
 import "../styles/comment.css";
 import "../styles/untilities.css";

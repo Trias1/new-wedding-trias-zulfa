@@ -53,7 +53,7 @@ export default function mainBanner() {
               <h4 className="text-invite mt-5">
                 We invite you to celebrate our wedding
                 <br />
-                {/* <span className="mt-1">Sabtu, 27 September 2025</span> */}
+                <span className="mt-1">Sabtu, 27 September 2025</span>
               </h4>
             </div>
             <div className="col-sm-12">
