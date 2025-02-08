@@ -650,7 +650,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 
 .remaining-time .time-secs {
   position: relative;
-  margin: 30px 20px 0 10px;
+  margin: 0 20px;
+  margin-bottom: 30px;
   height: 120px;
   width: 120px;
   padding-top: 25px;
