@@ -131,7 +131,7 @@
       left: 10%;
       width: 4px;
       height: 100%;
-      background: #ff7f50;
+      background: #1f1f38;
       transform: translateX(-50%);
     }
     
@@ -172,7 +172,7 @@
       position: absolute;
       left: 10%;
       transform: translate(-50%, -50%);
-      background: #ff7f50;
+      background: #1f1f38;
       color: white;
       width: 35px;
       height: 35px;
