@@ -46,8 +46,8 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      {/* <AdabWalimah/> */}
-      {/* <Amplop/> */}
+      <AdabWalimah/>
+      <Amplop/>
       <Footer />
     </>
   );
